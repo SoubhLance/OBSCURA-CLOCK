@@ -106,29 +106,6 @@ A modern, feature-rich digital clock application with multiple themes, timer fun
 | Clean Minimal | Light, accessible design | Productivity, clarity |
 | Cyberpunk Neon | Retro-futuristic style | Entertainment |
 
-## 🔊 Audio Features
-
-The application includes rich audio feedback:
-- **Click sounds** - Button interactions
-- **Timer alerts** - Completion notifications
-- **Countdown beeps** - Final 10 seconds
-- **Volume control** - Adjustable audio levels
-
-### Audio Troubleshooting
-If you can't hear sounds:
-1. Click anywhere on the page to activate audio
-2. Check browser audio permissions
-3. Ensure system volume is up
-4. Toggle sound settings in the app
-
-## 📱 Mobile Support
-
-Obscura Clock Pro is fully responsive:
-- **Touch-friendly** controls
-- **Adaptive layouts** for all screen sizes
-- **Gesture support** for mobile interactions
-- **Optimized fonts** for readability
-
 
 ## 🤝 Contributing
 
