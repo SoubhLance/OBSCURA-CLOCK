@@ -130,43 +130,6 @@ Obscura Clock Pro is fully responsive:
 - **Optimized fonts** for readability
 
 
-## 🔧 Technical Details
-
-### Browser Compatibility
-- **Chrome** 60+ ✅
-- **Firefox** 55+ ✅
-- **Safari** 12+ ✅
-- **Edge** 79+ ✅
-
-### Technologies Used
-- **HTML5** - Semantic structure
-- **CSS3** - Modern styling with animations
-- **JavaScript ES6+** - Interactive functionality
-- **Web Audio API** - Sound effects
-- **Local Storage** - Settings persistence
-
-### Performance Features
-- **Efficient animations** with CSS transforms
-- **Optimized timers** with visibility detection
-- **Minimal DOM manipulation**
-- **Cached settings** for fast loading
-
-## 🎯 Roadmap
-
-### Upcoming Features
-- [ ] **Alarm System** - Set multiple alarms
-- [ ] **World Clock** - Multiple timezone display
-- [ ] **Pomodoro Timer** - Productivity focused timing
-- [ ] **Custom Themes** - User-created color schemes
-- [ ] **Export Data** - Save timer/stopwatch sessions
-- [ ] **PWA Support** - Install as desktop app
-
-### Enhancements
-- [ ] **Voice Commands** - Hands-free control
-- [ ] **Weather Integration** - Current conditions display
-- [ ] **Calendar Events** - Upcoming appointments
-- [ ] **Focus Mode** - Distraction-free interface
-
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
@@ -174,14 +137,6 @@ Contributions are welcome! Here's how you can help:
 1. **Fork the repository**
 2. **Create a feature branch**
 
-
-5. **Open a Pull Request**
-
-### Development Guidelines
-- Follow existing code style
-- Test across multiple browsers
-- Update documentation for new features
-- Ensure mobile compatibility
 
 ## 🐛 Bug Reports
 
