@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obscura Clock Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-midnight font-digital">
+    <div class="background-animation" id="backgroundAnimation"></div>
+    
+    <div class="container">
+        <div class="logo" id="logo">OBSCURA CLOCK PRO</div>
+        
+        <div class="mode-selector">
+            <div class="mode-btn active" data-mode="clock">🕐 Clock</div>
+            <div class="mode-btn" data-mode="timer">⏲️ Timer</div>
+            <div class="mode-btn" data-mode="stopwatch">⏱️ Stopwatch</div>
+            <div class="mode-btn" data-mode="alarm">⏰ Alarm</div>
+        </div>
+        
+        <div class="clock-display">
+            <div class="time-display" id="timeDisplay">00:00:00</div>
+            <div class="date-display" id="dateDisplay"></div>
+            <div class="timezone-display" id="timezoneDisplay"></div>
+        </div>
+        
+        <div class="progress-bar" id="progressBar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        
+        <div class="timer-input" id="timerInput">
+            <span>Set Timer:</span>
+            <input type="number" id="timerHours" min="0" max="23" value="0" placeholder="HH">
+            <span>:</span>
+            <input type="number" id="timerMinutes" min="0" max="59" value="0" placeholder="MM">
+            <span>:</span>
+            <input type="number" id="timerSeconds" min="0" max="59" value="0" placeholder="SS">
+        </div>
+        
+        <div class="timer-presets" id="timerPresets">
+            <div class="preset-btn" data-time="300">5 min</div>
+            <div class="preset-btn" data-time="600">10 min</div>
+            <div class="preset-btn" data-time="900">15 min</div>
+            <div class="preset-btn" data-time="1800">30 min</div>
+            <div class="preset-btn" data-time="3600">1 hour</div>
+        </div>
+        
+        <div class="timer-controls" id="timerControls">
+            <button class="control-btn start" id="timerStart">▶️ Start</button>
+            <button class="control-btn pause" id="timerPause">⏸️ Pause</button>
+            <button class="control-btn reset" id="timerReset">🔄 Reset</button>
+        </div>
+        
+        <div class="stopwatch-controls" id="stopwatchControls">
+            <button class="control-btn start" id="stopwatchStart">▶️ Start</button>
+            <button class="control-btn pause" id="stopwatchPause">⏸️ Pause</button>
+            <button class="control-btn" id="stopwatchLap">📍 Lap</button>
+            <button class="control-btn reset" id="stopwatchReset">🔄 Reset</button>
+        </div>
+        
+        <div class="lap-times" id="lapTimes"></div>
+    </div>
+    
+    <div class="settings-toggle" id="settingsToggle">⚙️</div>
+    <div class="fullscreen-btn" id="fullscreenBtn">⛶</div>
+    
+    <div class="settings-panel" id="settingsPanel">
+        <div class="setting-group">
+            <label class="setting-label">🎨 Theme</label>
+            <select class="setting-select" id="themeSelect">
+                <option value="midnight">Midnight Blue</option>
+                <option value="ocean">Ocean Depth</option>
+                <option value="forest">Forest Mist</option>
+                <option value="sunset">Warm Sunset</option>
+                <option value="cosmic">Cosmic Purple</option>
+                <option value="aurora">Aurora Green</option>
+                <option value="minimal">Clean Minimal</option>
+                <option value="cyberpunk">Cyberpunk Neon</option>
+            </select>
+        </div>
+        
+        <div class="setting-group">
+            <label class="setting-label">🔤 Font Style</label>
+            <select class="setting-select" id="fontSelect">
+                <option value="digital">Digital</option>
+                <option value="serif">Serif</option>
+                <option value="pixel">Pixel</option>
+                <option value="modern">Modern</option>
+            </select>
+        </div>
+        
+        <div class="setting-group">
+            <label class="setting-label">🕐 Time Format</label>
+            <div class="format-toggle">
+                <button class="format-btn active" id="format12">12H</button>
+                <button class="format-btn" id="format24">24H</button>
+            </div>
+        </div>
+        
+        <div class="setting-group">
+            <label class="setting-label">🔊 Sound Effects</label>
+            <div class="sound-toggle">
+                <button class="sound-btn active" id="soundOn">ON</button>
+                <button class="sound-btn" id="soundOff">OFF</button>
+            </div>
+            <div class="volume-control">
+                <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="50">
+            </div>
+        </div>
+        
+        <div class="setting-group">
+            <label class="setting-label">🌍 Timezone</label>
+            <select class="setting-select" id="timezoneSelect">
+                <option value="local">Local Time</option>
+                <option value="UTC">UTC</option>
+                <option value="America/New_York">New York</option>
+                <option value="America/Los_Angeles">Los Angeles</option>
+                <option value="Europe/London">London</option>
+                <option value="Europe/Paris">Paris</option>
+                <option value="Asia/Tokyo">Tokyo</option>
+                <option value="Asia/Shanghai">Shanghai</option>
+                <option value="Australia/Sydney">Sydney</option>
+            </select>
+        </div>
+        
+        <div class="setting-group">
+            <label class="setting-label">✨ Animations</label>
+            <div class="format-toggle">
+                <button class="format-btn active" id="animOn">ON</button>
+                <button class="format-btn" id="animOff">OFF</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="notification" id="notification"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
