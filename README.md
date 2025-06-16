@@ -146,7 +146,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ for time management enthusiasts**
 
-[⭐ Star this repo](https://github.com/yourusername/obscura-clock-pro) | [🐛 Report Bug](https://github.com/yourusername/obscura-clock-pro/issues) | [✨ Request Feature](https://github.com/yourusername/obscura-clock-pro/issues)
+[⭐ Star this repo](https://github.com/SoubhLance/OBSCURA-CLOCK/edit/main/README.md) | [🐛 Report Bug]([https://github.com/yourusername/obscura-clock-pro/issues](https://github.com/SoubhLance/OBSCURA-CLOCK/edit/main/README.md)) | [✨ Request Feature]([https://github.com/yourusername/obscura-clock-pro/issues](https://github.com/SoubhLance/OBSCURA-CLOCK/edit/main/README.md))
 
 </div>
 
