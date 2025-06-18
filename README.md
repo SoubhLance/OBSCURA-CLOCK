@@ -62,7 +62,6 @@ A modern, feature-rich digital clock application with multiple themes, timer fun
   └── README.md # Project documentation
 ```
 
-
 ## 🎯 Usage
 
 ### Basic Clock
